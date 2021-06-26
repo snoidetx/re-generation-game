@@ -106,7 +106,7 @@ def main():
         pop_inc = cal_pop_inc(pop_inc, industry, healthcare, agriculture, temperature, curr_living_mode)
         population = int(population * (1 + pop_inc))
         
-        temp_inc -= industry/1000
+        temp_inc -= renewable/1000
         
         if fossil_fuel != 0 and forest != 0:
 
