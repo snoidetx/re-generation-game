@@ -5,12 +5,7 @@ h1 {
 }
 
 
-div.charts {
-    display: block;
-    width: 40%;
-    align: left;
-    float: left;
-}
+
 
 button {
     border-radius:1%;
@@ -33,17 +28,13 @@ button {
 
 
 
-.row .btn {
-    position: relative;
-    
-    
-}
+
 
 
 button.submit{
     width: 200px;
-    height:70px;
-    background-size: 200px 70px; 
+    height:80px;
+    background-size: 200px 80px; 
 }
 
 body {
@@ -54,8 +45,10 @@ body {
 }
 
 .header {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
+
+
 
 img {
     display: block;
