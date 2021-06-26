@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="css/style-game.css" rel="stylesheet">
+    <link href="css/style-index.css" rel="stylesheet">
     <script src="js/game.js"></script>
 </head>
 
@@ -23,52 +23,50 @@
         }
     </style>
     <div class="row">
+        <table class="col-md-4">
+            <thead class="header">
+                <th>ATTRIBUTE</th>
+                <th>VALUE</th>
+            </thead>
+            <tbody>
 
-        <div class="col-md-4 table1">
-            <table>
-                <thead class="header">
-                    <th>ATTRIBUTE</th>
-                    <th>VALUE</th>
-                </thead>
-                <tbody>
+                <tr>
+                    <td>Temperature</td>
+                    <td>
+                        <p id="temperature">22°C</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Population
+                    </td>
+                    <td>
+                        <p id="population">1000</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Water
+                    </td>
+                    <td>
+                        <p id="water">350000000000m3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Forest</td>
+                    <td>
+                        <p id="forest">350000000m2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fossil Fuel</td>
+                    <td>
+                        <p id="fossil_fuel">100%</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-                    <tr>
-                        <td>Temperature</td>
-                        <td>
-                            <p id="temperature">22°C</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Population
-                        </td>
-                        <td>
-                            <p id="population">1000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Water
-                        </td>
-                        <td>
-                            <p id="water">350000000000m3</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Forest</td>
-                        <td>
-                            <p id="forest">350000000m2</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Fossil Fuel</td>
-                        <td>
-                            <p id="fossil_fuel">100%</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
         <div class="col-md-2 btn">
             <button type="button" onclick="upgradeIndustry()">Develop Industry</button>
             <button type="button" onclick="upgradeHealthcare()">Develop Healthcare</button>
@@ -126,29 +124,22 @@
             <button type="button" onclick="setMediumLivingMode()">Medium</button>
             <button type="button" onclick="setHighLivingMode()">High</button>
         </div>
-
-
-</body>
-
-</html>
-
-</div>
-</div>
-
-
-
-
-
-<section class="bottom">
-
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3"><button class="submit" type="button" onclick="initGame()">Start game!</button></div>
-        <div class="col-md-3"><button class="submit" type="button" onclick="checkStatus()">Next 20 years!</button>
-        </div>
-        <div class="col-md-3"></div>
     </div>
-</section>
+
+
+
+
+
+    <section class="bottom">
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"><button class="submit" type="button" onclick="initGame()">Start game!</button></div>
+            <div class="col-md-3"><button class="submit" type="button" onclick="checkStatus()">Next 20 years!</button>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </section>
 
 
 
