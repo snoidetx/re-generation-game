@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style-index.css">
     <title>Ranking List</title>
+    <script src="js/rank.js"></script>
 </head>
 
 <body class="ranking">
+    <script src="/__/firebase/8.6.8/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
     <div class="container">
         <h1 class="ranking">Ranking List</h1>
         <table>
@@ -76,6 +80,14 @@
             </tbody>
         </table>
     </div>
+
+    <label for="nickname">Nickname:</label>
+    <input type="text" id="nickname" name="try">
+    <label for="year">Year:</label>
+    <input type="text" id="year" name="try">
+    <button type="button" onclick="adder()">upload</button>
+
+    <button onclick="retrieveFromLeaderboard()">see</button>
 </body>
 
 </html>

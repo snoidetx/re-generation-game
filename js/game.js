@@ -25,7 +25,7 @@ for (let i = 0; i < 11; i++) {
 }
 
 // game variable
-var date, temperature, population, pop_inc, temp_inc, water, forest, fossil_fuel, industry = 0, healthcare = 0, agriculture = 0, renewable = 0, living_mode;
+var date = DATE, temperature = TEMPERATURE, population = POPULATION, pop_inc = POP_INC, temp_inc = TEMP_INC, water = WATER, forest = FOREST, fossil_fuel = FOSSIL_FUEL, industry = 0, healthcare = 0, agriculture = 0, renewable = 0, living_mode = 0;
 var industry_clicked = false, healthcare_clicked = false, agriculture_clicked = false, renewable_clicked = false;
 
 function cal_usage(_population, _energy_per_capita) {
