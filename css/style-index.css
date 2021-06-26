@@ -23,7 +23,7 @@ img{max-width:100%;}
 /*-- end reset --*/
 body.index{
     font-family: 'Open Sans', sans-serif; 
-	background: url(../img/1poster.jpg)repeat center 0px;
+	background: url(../img/poster.jpg)repeat center 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
