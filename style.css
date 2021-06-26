@@ -23,19 +23,19 @@ img{max-width:100%;}
 /*-- end reset --*/
 body.index{
     font-family: 'Open Sans', sans-serif; 
-	background: url(../images/1.jpg)repeat center 0px;
+	background: url(images/1.jpg)repeat center 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
 }
 body.prologue{
-    background: url(../images/sky.jpg)repeat center 0px;
+    background: url(images/sky.jpg)repeat center 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    align: center;
+    text-align: center;
 }
 
 html.ranking, body.ranking {
@@ -188,7 +188,7 @@ a.play-icon.video-btn {
     border-radius: 20px;
     font-size: 15px;
     display: inline-block;
-    align: center;
+    text-align: center;
 }
 
 
