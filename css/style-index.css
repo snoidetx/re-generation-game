@@ -23,14 +23,14 @@ img{max-width:100%;}
 /*-- end reset --*/
 body.index{
     font-family: 'Open Sans', sans-serif; 
-	background: url(../images/1.jpg)repeat center 0px;
+	background: url(../img/1poster.jpg)repeat center 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
 }
 body.prologue{
-    background: url(../images/sky.jpg)repeat center 0px;
+    background: url(../img/sky.jpg)repeat center 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
