@@ -1,7 +1,60 @@
+h1 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+}
+
+
+div.charts {
+    display: block;
+    width: 40%;
+    align: left;
+    float: left;
+}
+
+button {
+    border-radius:1%;
+    background-color:transparent;
+    background: url('../img/click.png')no-repeat 0 0;
+    width: 300px;
+    height:70px;
+    background-size: 300px 70px; 
+    border: 0;
+    color:rgb(255, 255, 255);
+    font: 18px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+
+.row .btn {
+    position: relative;
+    
+    
+}
+
+
+button.submit{
+    width: 200px;
+    height:70px;
+    background-size: 200px 70px; 
+}
+
 body {
+    margin: 30px;
     font: "Times New Roman";
-    font-size: 50px;
-    color: rgb(255, 255, 255);
+    font-size: 25px;
+    color: #808A87;
+}
+
+.header {
+    color: rgb(255, 255, 255)
 }
 
 img {
@@ -9,4 +62,10 @@ img {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bottom {
+    width:100%;
+    position: fixed;
+    bottom:50px;
 }
