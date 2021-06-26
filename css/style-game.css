@@ -7,6 +7,7 @@ h1 {
 
 
 
+
 button {
     border-radius:1%;
     background-color:transparent;
@@ -26,7 +27,10 @@ button {
 }
 
 
-
+h2 {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
 
 
 
