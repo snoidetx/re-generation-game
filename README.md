@@ -17,9 +17,9 @@ Please live as long as you can.
 
 # Credit
 
-Clip from _Terminator 2: Judgement Day_ by James Cameron
-Clip from _Contagion_ by Steven Soderbergh
-Clip from _STAR WAR_ by George Lucas
-Clip from _The Beauty Of Earth_
-Music _I Miss_ and _Valiant_ by AShamaluevMusic
+Clip from _Terminator 2: Judgement Day_ by James Cameron  
+Clip from _Contagion_ by Steven Soderbergh  
+Clip from _STAR WAR_ by George Lucas  
+Clip from _The Beauty Of Earth_  
+Music _I Miss_ and _Valiant_ by AShamaluevMusic  
 Images from Google
