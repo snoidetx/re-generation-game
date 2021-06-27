@@ -1,6 +1,6 @@
 # Regeneration
 
-Since the Industrail Age, we have been destroying our planet faster and faster. People are not sufficiently aware of this and most have an unsustainable living style, which has been stimulating climate change and global warming. Through the game _Regeneration_, we hope to alert people to the issue and motivate them to live sustainably.
+Since the Industrial Age, we have been destroying our planet faster and faster. People are not sufficiently aware of this and most have an unsustainable living style, which has been stimulating climate change and global warming. Through the game _Regeneration_, we hope to alert people to the issue and motivate them to live sustainably.
 
 # Features
 ## Beautiful cover page
